@@ -1,0 +1,34 @@
+<!DOCTYPE HTML>
+<html>
+	<body>
+			
+		<table border="1">
+			<thead>
+				<tr>
+					<th>NAME</th>
+					<th>AGE</th>
+					<th colspan="3">LANGUAGE</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>BARAA</td>
+					<td>27</td>
+					<td rowspan="2">AR</td>
+					<td>EN</td>
+					
+				</tr>
+				<tr>
+					<td>ABDO</td>
+					<td>25</td>
+					<td></td>
+					<td>EN</td>
+				</tr>
+		</table>
+	</body>
+
+
+
+
+
+</html>

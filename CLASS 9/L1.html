@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <p>WEEEEEE HAAAA</p>
+    <form action="" id="myForm">
+        <input onclick="checkName()" type="button" value="submit" id="check">
+        <input type="text" name="" id="name">
+
+    </form>
+    <script>
+        function checkName() {
+            var userName = document.getElementById('name')
+
+            if (userName.value == '') {
+                var errorMsg = document.createElement('p')
+                errorMsg.innerHTML = 'Invalid Name'
+                errorMsg.style.color = 'red'
+                var myForm = document.getElementById('myForm')
+                myForm.appendChild(errorMsg)
+            }
+        }
+    </script>
+</body>
+
+</html>

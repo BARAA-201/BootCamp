@@ -1,0 +1,79 @@
+
+
+li {
+    border-style: solid;
+    border-color: aliceblue;
+    padding: 10px;
+    
+}
+ul{
+    margin: 0;
+    padding: 0;
+    
+    list-style-type: none;
+    
+
+}
+body{
+    margin: 0;
+}
+header{
+    
+    background-color: #503b2f;
+    background-size: cover;
+    height: 50px;
+    background-image: url(https://images.ctfassets.net/hrltx12pl8hq/6TIZLa1AKeBel0yVO7ReIn/1fc0e2fd9fcc6d66b3cc733aa2547e11/weather-images.jpg?fit=fill&w=800&h=300);
+    border-style: solid;
+    padding: 10px;
+    border-color: red;
+}
+.homepage{
+border-style: none;
+}
+
+
+div{
+    color: rgb(12, 12, 12);
+}
+.main-content{
+color:rgb(0, 0, 0);
+padding: 10px;
+box-sizing: border-box;
+}
+#content-area{
+background-color: rgb(229, 231, 229);
+width: 75%;
+height: 700px;
+float: left;
+
+}
+#sidebar{
+background-color: rgb(245, 237, 129);
+height: 700px;
+width: 25%;
+
+float: right;
+}
+footer{
+clear: both;
+background-color: rgb(0, 0, 0);
+color: blueviolet;
+text-align: center;
+padding: 30PX;
+}
+li{
+float: left;
+margin-left: 20px;
+}
+a{
+color: rgb(161, 12, 50);
+font-weight: 900;
+text-decoration:double;
+font-size: 20px;
+}
+a:hover{
+color: red;
+}
+img{
+max-width: 30%;
+}

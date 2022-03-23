@@ -1,0 +1,80 @@
+/* * {
+    outline: 2px green solid;
+} */
+
+body {
+    margin: 0px;
+    padding-top: 5px;
+}
+
+.navbar {
+    height: 70px;
+}
+
+
+/* .navbarimg {
+    max-width: 10px;
+    max-height: 10px;
+} */
+
+.navbar-brand img {
+    max-width: 50px;
+    max-height: 40px;
+}
+
+header {
+    background-color: bisque;
+    /* display: flex; */
+    /* justify-content: space-between; */
+    /* to give space and organize the position*/
+    /* align-items: center; */
+}
+
+#logo {}
+
+#logo img {
+    max-width: 10px;
+}
+
+#menu ul {
+    padding: 0;
+    margin: 20px;
+    display: flex;
+    list-style: none;
+}
+
+#menu ul li {
+    padding: 15px;
+    font-size: large;
+}
+
+#menu ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+#social-links img {
+    max-width: 10px;
+}
+
+#backimg {
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    max-width: 40px;
+    max-height: 40px;
+}
+
+#backimg2 {
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    max-width: 40px;
+    max-height: 40px;
+}
+
+.info {
+    justify-content: center;
+    display: inline-block;
+    align-items: baseline;
+}
